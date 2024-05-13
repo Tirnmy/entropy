@@ -51,6 +51,7 @@ if __name__ == '__main__':
     df_diet = df.loc[df['action'].isin(['吃早饭', '吃中饭', '吃晚饭']), :].astype('str')
     stu_lst = ['201610329', '201610219', '201610210', '201740134', '201610103']
 
+
     # # 获取饮食活动次数折线图
     # for id in stu_lst:
     #     get_plot(df_diet, id)
